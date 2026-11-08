@@ -1,0 +1,4 @@
+# Enable after starting the official service. See docs/cocos-cli-mcp.md.
+[mcp_servers.cocos_official]
+url = "http://127.0.0.1:9527/mcp"
+enabled = false

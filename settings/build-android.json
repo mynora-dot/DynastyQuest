@@ -1,0 +1,16 @@
+{
+  "platform": "android",
+  "name": "隋唐行纪",
+  "mainBundleCompressionType": "merge_dep",
+  "packages": {
+    "android": {
+      "packageName": "com.dynastyquest.game",
+      "orientation": {
+        "portrait": false,
+        "upsideDown": false,
+        "landscapeLeft": true,
+        "landscapeRight": true
+      }
+    }
+  }
+}

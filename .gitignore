@@ -1,1 +1,10 @@
 .DS_Store
+
+# Cocos Creator generated files
+/library/
+/temp/
+/local/
+/build/
+/profiles/
+/native/engine/android/**/*/assets
+node_modules/
