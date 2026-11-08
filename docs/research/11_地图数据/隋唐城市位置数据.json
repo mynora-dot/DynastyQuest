@@ -1,0 +1,854 @@
+{
+  "schema_version": "1.0",
+  "project": "隋唐行纪",
+  "generated": "2026-11-08",
+  "coordinate_note": "经纬度为 WGS84 十进制度。取今城区或遗址保护区中心，用于游戏地图比例定位，非古城址精确测绘点。confidence=B 表示位置可靠但精确到古城中心的误差可能有数公里。",
+  "confidence_legend": {
+    "A": "有明确考古或地理依据，位置可靠",
+    "B": "位置大体可靠，具体城址或有偏移",
+    "C": "学界有争议或城址已湮没，仅取通行说法",
+    "D": "游戏推演，非考据位置"
+  },
+  "nodes": [
+    {
+      "id": "changan_daxing",
+      "historical_name": "大兴城／长安",
+      "aliases": [
+        "大兴城",
+        "长安",
+        "京师",
+        "西京",
+        "京兆府"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "陕西省西安市",
+      "latitude": 34.266,
+      "longitude": 108.942,
+      "location_description": "隋唐长安城遗址，今西安市区。隋开皇二年（582）营建，名大兴城，唐改长安。",
+      "historical_importance": "隋唐都城，运河广通渠西端，丝绸之路东端起点。",
+      "related_events": [
+        "581年隋建",
+        "618年唐建",
+        "626年玄武门之变",
+        "904年唐末废毁"
+      ],
+      "confidence": "A",
+      "source": "中国社科院考古所龚国强《隋唐长安城考古述要》；《隋书》卷一《高祖纪上》"
+    },
+    {
+      "id": "luoyang_sui",
+      "historical_name": "洛阳／东都",
+      "aliases": [
+        "东京",
+        "东都",
+        "神都",
+        "河南府"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "河南省洛阳市",
+      "latitude": 34.668,
+      "longitude": 112.454,
+      "location_description": "隋唐洛阳城遗址，今洛阳市区洛河两岸。605年宇文恺主持营建。",
+      "historical_importance": "隋唐东都，大运河中心枢纽，武周神都。",
+      "related_events": [
+        "605年营东都",
+        "613年杨玄感围城",
+        "690年武则天称帝",
+        "756年安禄山陷洛阳"
+      ],
+      "confidence": "A",
+      "source": "《隋书》卷三《炀帝纪上》；隋唐洛阳城遗址考古资料"
+    },
+    {
+      "id": "bianzhou",
+      "historical_name": "汴州",
+      "aliases": [
+        "陈留郡",
+        "浚仪"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "河南省开封市",
+      "latitude": 34.797,
+      "longitude": 114.308,
+      "location_description": "隋唐汴州城深埋于今开封市区地下，因黄河泛滥淤积。",
+      "historical_importance": "通济渠中段枢纽，江淮漕粮北上必经。",
+      "related_events": [
+        "605年通济渠通航",
+        "756年安禄山军南下"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷三八《地理志一》；山东省水利厅《汴渠》"
+    },
+    {
+      "id": "songzhou",
+      "historical_name": "宋州",
+      "aliases": [
+        "睢阳",
+        "睢阳郡"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "河南省商丘市睢阳区",
+      "latitude": 34.414,
+      "longitude": 115.656,
+      "location_description": "隋唐宋州治睢阳县，今商丘睢阳区。",
+      "historical_importance": "通济渠沿线重镇，安史之乱睢阳之战发生地。",
+      "related_events": [
+        "757年睢阳之战"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷三八《地理志一》；《资治通鉴》卷二二〇"
+    },
+    {
+      "id": "sizhou",
+      "historical_name": "泗州",
+      "aliases": [
+        "临淮郡",
+        "宿预"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "江苏省盱眙县淮河北岸一带",
+      "latitude": 33.06,
+      "longitude": 118.42,
+      "location_description": "泗州古城已没入洪泽湖，遗址在今盱眙县淮河镇附近水下。坐标为大致范围。",
+      "historical_importance": "通济渠入淮口，南北转运枢纽。",
+      "related_events": [
+        "605年通济渠入淮"
+      ],
+      "confidence": "C",
+      "source": "《旧唐书》卷三八《地理志一》；泗州城水下考古资料（篇目待核）"
+    },
+    {
+      "id": "chuzhou",
+      "historical_name": "楚州",
+      "aliases": [
+        "山阳",
+        "淮阴郡"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "江苏省淮安市淮安区",
+      "latitude": 33.503,
+      "longitude": 119.146,
+      "location_description": "隋楚州治山阳县，今淮安市淮安区。",
+      "historical_importance": "邗沟北端起点，漕运中转。",
+      "related_events": [
+        "587年开山阳渎",
+        "605年重开邗沟"
+      ],
+      "confidence": "B",
+      "source": "《隋书》卷一《高祖纪上》卷三《炀帝纪上》"
+    },
+    {
+      "id": "yangzhou_jiangdu",
+      "historical_name": "扬州／江都",
+      "aliases": [
+        "江都",
+        "广陵",
+        "江都郡"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "江苏省扬州市",
+      "latitude": 32.394,
+      "longitude": 119.413,
+      "location_description": "隋江都郡治江都县，唐扬州城，今扬州市区。",
+      "historical_importance": "邗沟南端，长江与运河交汇，炀帝行都。",
+      "related_events": [
+        "605/610/616年炀帝幸江都",
+        "618年江都之变"
+      ],
+      "confidence": "A",
+      "source": "《隋书》卷三《炀帝纪上》卷四《炀帝纪下》"
+    },
+    {
+      "id": "zhuojun",
+      "historical_name": "涿郡",
+      "aliases": [
+        "蓟县",
+        "幽州",
+        "范阳郡"
+      ],
+      "dynasty": "隋",
+      "modern_name": "北京市西南（广安门一带）",
+      "latitude": 39.899,
+      "longitude": 116.355,
+      "location_description": "隋涿郡治蓟县，蓟城遗址在今北京广安门一带。坐标为大致位置。",
+      "historical_importance": "永济渠北端，征高句丽后勤基地。",
+      "related_events": [
+        "608年开永济渠",
+        "611—614年征辽集结"
+      ],
+      "confidence": "B",
+      "source": "《隋书》卷三《炀帝纪上》；海河水利委员会《永济渠》"
+    },
+    {
+      "id": "fanyang",
+      "historical_name": "范阳",
+      "aliases": [
+        "幽州",
+        "范阳郡",
+        "蓟"
+      ],
+      "dynasty": "唐",
+      "modern_name": "北京市西南（广安门一带）",
+      "latitude": 39.899,
+      "longitude": 116.355,
+      "location_description": "唐幽州/范阳郡，范阳节度使驻地，与隋涿郡同地异名。",
+      "historical_importance": "安史之乱起兵地，东北军事中心。",
+      "related_events": [
+        "742年置范阳节度使",
+        "755年安禄山起兵"
+      ],
+      "confidence": "B",
+      "source": "《资治通鉴》卷二一七；《旧唐书》卷二〇〇上《安禄山传》"
+    },
+    {
+      "id": "taiyuan_jinyang",
+      "historical_name": "太原／晋阳",
+      "aliases": [
+        "晋阳",
+        "并州",
+        "北京",
+        "太原府"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "山西省太原市晋源区",
+      "latitude": 37.714,
+      "longitude": 112.478,
+      "location_description": "晋阳古城遗址在今太原晋源区，宋初毁，后移治今太原城。",
+      "historical_importance": "隋唐北都，河东军事重镇，李渊起兵地。",
+      "related_events": [
+        "617年李渊晋阳起兵",
+        "690年后置北都"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷一《高祖纪》；《新唐书》卷三九《地理志三》"
+    },
+    {
+      "id": "tongguan",
+      "historical_name": "潼关",
+      "aliases": [
+        "潼关",
+        "港口"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "陕西省渭南市潼关县",
+      "latitude": 34.556,
+      "longitude": 110.246,
+      "location_description": "隋唐潼关在今潼关县港口镇一带，与汉潼关旧址不同。",
+      "historical_importance": "关中门户，长安安危所系。",
+      "related_events": [
+        "756年潼关失守"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷一〇四《哥舒翰传》；《资治通鉴》卷二一八"
+    },
+    {
+      "id": "shanzhou",
+      "historical_name": "陕州",
+      "aliases": [
+        "陕郡",
+        "陕县"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "河南省三门峡市陕州区",
+      "latitude": 34.777,
+      "longitude": 111.2,
+      "location_description": "陕州城临黄河，三门砥柱在其东。",
+      "historical_importance": "漕运过三门转运枢纽，太原仓所在。",
+      "related_events": [
+        "734年裴耀卿置太原仓"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷四九《食货志下》"
+    },
+    {
+      "id": "pujin",
+      "historical_name": "蒲津",
+      "aliases": [
+        "蒲州",
+        "河中府"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "山西省永济市",
+      "latitude": 34.83,
+      "longitude": 110.32,
+      "location_description": "蒲津关与蒲津浮桥，跨黄河连接河东与关中。",
+      "historical_importance": "河东通往关中的咽喉。",
+      "related_events": [
+        "唐开元十二年铸铁牛铁人固桥"
+      ],
+      "confidence": "B",
+      "source": "《新唐书》卷三八《地理志二》；蒲津渡遗址考古资料"
+    },
+    {
+      "id": "liangzhou",
+      "historical_name": "凉州",
+      "aliases": [
+        "武威郡",
+        "姑臧"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "甘肃省武威市",
+      "latitude": 37.928,
+      "longitude": 102.638,
+      "location_description": "河西走廊东端，今武威市区。",
+      "historical_importance": "河西节度使驻地，丝路东段重镇。",
+      "related_events": [
+        "609年炀帝西巡经此道"
+      ],
+      "confidence": "A",
+      "source": "《隋书》卷二九《地理志上》；《旧唐书》卷四〇《地理志三》"
+    },
+    {
+      "id": "ganzhou",
+      "historical_name": "甘州",
+      "aliases": [
+        "张掖郡",
+        "张掖"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "甘肃省张掖市",
+      "latitude": 38.926,
+      "longitude": 100.449,
+      "location_description": "河西走廊中部，今张掖市区。",
+      "historical_importance": "609年炀帝至张掖，高昌王来朝；丝路互市中心。",
+      "related_events": [
+        "609年炀帝西巡至张掖"
+      ],
+      "confidence": "A",
+      "source": "《隋书》卷三《炀帝纪上》"
+    },
+    {
+      "id": "suzhou_hexi",
+      "historical_name": "肃州",
+      "aliases": [
+        "酒泉郡",
+        "酒泉"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "甘肃省酒泉市",
+      "latitude": 39.732,
+      "longitude": 98.494,
+      "location_description": "河西走廊中西部，今酒泉市区。",
+      "historical_importance": "丝路驿站与军镇。",
+      "related_events": [],
+      "confidence": "B",
+      "source": "《旧唐书》卷四〇《地理志三》"
+    },
+    {
+      "id": "guazhou",
+      "historical_name": "瓜州",
+      "aliases": [
+        "晋昌",
+        "瓜州"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "甘肃省瓜州县锁阳城镇一带",
+      "latitude": 40.24,
+      "longitude": 96.2,
+      "location_description": "唐瓜州城遗址在今瓜州县锁阳城镇，非今瓜州县城。",
+      "historical_importance": "河西走廊西端，玉门关内最后一站。",
+      "related_events": [
+        "玄奘西行经瓜州"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷四〇《地理志三》；锁阳城遗址考古资料"
+    },
+    {
+      "id": "shazhou",
+      "historical_name": "沙州",
+      "aliases": [
+        "敦煌",
+        "敦煌郡"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "甘肃省敦煌市",
+      "latitude": 40.142,
+      "longitude": 94.662,
+      "location_description": "敦煌城与莫高窟，今敦煌市。",
+      "historical_importance": "丝路咽喉，佛教艺术中心。",
+      "related_events": [
+        "609年炀帝西巡后丝路畅通"
+      ],
+      "confidence": "A",
+      "source": "《隋书》卷二九《地理志上》；敦煌研究院资料"
+    },
+    {
+      "id": "yumenguan",
+      "historical_name": "玉门关",
+      "aliases": [
+        "玉门关"
+      ],
+      "dynasty": "汉—唐",
+      "modern_name": "甘肃省敦煌市西北小方盘城",
+      "latitude": 40.356,
+      "longitude": 93.864,
+      "location_description": "汉玉门关遗址小方盘城，唐玉门关位置有东移之说。",
+      "historical_importance": "西域门户。",
+      "related_events": [],
+      "confidence": "B",
+      "source": "敦煌市博物馆资料；《汉书·地理志》（时代不同，注意）"
+    },
+    {
+      "id": "xizhou",
+      "historical_name": "西州",
+      "aliases": [
+        "高昌",
+        "交河",
+        "前庭"
+      ],
+      "dynasty": "唐",
+      "modern_name": "新疆吐鲁番市",
+      "latitude": 42.947,
+      "longitude": 89.19,
+      "location_description": "唐西州治高昌县，交河城在其西。",
+      "historical_importance": "安西都护府初期驻地，丝路西域段枢纽。",
+      "related_events": [
+        "640年唐灭高昌置西州"
+      ],
+      "confidence": "A",
+      "source": "《旧唐书》卷一九八《西戎传》；吐鲁番出土文书"
+    },
+    {
+      "id": "gaochang",
+      "historical_name": "高昌",
+      "aliases": [
+        "高昌国",
+        "高昌城"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "新疆吐鲁番市高昌区",
+      "latitude": 42.853,
+      "longitude": 89.529,
+      "location_description": "高昌故城遗址，今吐鲁番市东。",
+      "historical_importance": "麴氏高昌国都，640年唐灭之。",
+      "related_events": [
+        "609年麴伯雅朝隋",
+        "640年唐灭高昌"
+      ],
+      "confidence": "A",
+      "source": "《隋书》卷八三《西域传》；《旧唐书》卷一九八"
+    },
+    {
+      "id": "beiting",
+      "historical_name": "北庭",
+      "aliases": [
+        "庭州",
+        "北庭都护府"
+      ],
+      "dynasty": "唐",
+      "modern_name": "新疆吉木萨尔县",
+      "latitude": 44.01,
+      "longitude": 89.19,
+      "location_description": "北庭故城遗址，今吉木萨尔县城北。",
+      "historical_importance": "唐北庭都护府驻地，天山北路军政中心。",
+      "related_events": [
+        "692年置北庭都护府"
+      ],
+      "confidence": "A",
+      "source": "《旧唐书》卷四〇《地理志三》；北庭故城考古资料"
+    },
+    {
+      "id": "qiuci",
+      "historical_name": "龟兹",
+      "aliases": [
+        "安西",
+        "库车"
+      ],
+      "dynasty": "唐",
+      "modern_name": "新疆库车市",
+      "latitude": 41.717,
+      "longitude": 82.963,
+      "location_description": "龟兹故城，今库车市一带。",
+      "historical_importance": "安西都护府驻地，安西四镇之一。",
+      "related_events": [
+        "648年安西四镇"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷一九八《西戎传》"
+    },
+    {
+      "id": "jingkou",
+      "historical_name": "京口",
+      "aliases": [
+        "润州",
+        "镇江"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "江苏省镇江市",
+      "latitude": 32.188,
+      "longitude": 119.425,
+      "location_description": "长江南岸渡口，江南河北端。",
+      "historical_importance": "江南河起点，南北渡江要冲。",
+      "related_events": [
+        "610年开江南河"
+      ],
+      "confidence": "B",
+      "source": "《资治通鉴》卷一八一"
+    },
+    {
+      "id": "yuhang",
+      "historical_name": "余杭",
+      "aliases": [
+        "杭州",
+        "钱唐"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "浙江省杭州市",
+      "latitude": 30.274,
+      "longitude": 120.155,
+      "location_description": "隋余杭郡治钱唐县，今杭州市区。",
+      "historical_importance": "江南河南端，钱塘江流域门户。",
+      "related_events": [
+        "610年江南河通"
+      ],
+      "confidence": "B",
+      "source": "《隋书》卷三一《地理志下》"
+    },
+    {
+      "id": "wujun",
+      "historical_name": "吴郡",
+      "aliases": [
+        "苏州",
+        "吴州"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "江苏省苏州市",
+      "latitude": 31.298,
+      "longitude": 120.585,
+      "location_description": "隋吴郡治吴县，今苏州老城。",
+      "historical_importance": "江南河中枢，丝织与商业中心。",
+      "related_events": [],
+      "confidence": "B",
+      "source": "《隋书》卷三一《地理志下》"
+    },
+    {
+      "id": "weizhou",
+      "historical_name": "魏州",
+      "aliases": [
+        "武阳郡",
+        "大名府"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "河北省邯郸市大名县",
+      "latitude": 36.283,
+      "longitude": 115.147,
+      "location_description": "隋武阳郡、唐魏州，今大名县一带。",
+      "historical_importance": "永济渠中段，河北粮运与军镇。",
+      "related_events": [
+        "隋末窦建德据河北"
+      ],
+      "confidence": "B",
+      "source": "《隋书》卷三〇《地理志中》"
+    },
+    {
+      "id": "cangzhou",
+      "historical_name": "沧州",
+      "aliases": [
+        "渤海郡"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "河北省沧州市",
+      "latitude": 38.304,
+      "longitude": 116.838,
+      "location_description": "隋渤海郡、唐沧州，今沧州市区。",
+      "historical_importance": "永济渠沿线，盐业与边防。",
+      "related_events": [],
+      "confidence": "B",
+      "source": "《隋书》卷三〇《地理志中》"
+    },
+    {
+      "id": "dingzhou",
+      "historical_name": "定州",
+      "aliases": [
+        "博陵郡",
+        "中山"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "河北省定州市",
+      "latitude": 38.516,
+      "longitude": 114.99,
+      "location_description": "隋博陵郡、唐定州，今定州市。",
+      "historical_importance": "河北重镇，丝织业发达。",
+      "related_events": [],
+      "confidence": "B",
+      "source": "《隋书》卷三〇《地理志中》"
+    },
+    {
+      "id": "xuzhou",
+      "historical_name": "徐州",
+      "aliases": [
+        "彭城郡",
+        "彭城"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "江苏省徐州市",
+      "latitude": 34.26,
+      "longitude": 117.19,
+      "location_description": "隋彭城郡、唐徐州，今徐州市区。",
+      "historical_importance": "沟通黄淮的军事重镇。",
+      "related_events": [
+        "757年睢阳之战前后唐军争夺"
+      ],
+      "confidence": "B",
+      "source": "《隋书》卷三〇《地理志中》"
+    },
+    {
+      "id": "yanzhou",
+      "historical_name": "兖州",
+      "aliases": [
+        "鲁郡",
+        "鲁"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "山东省济宁市兖州区",
+      "latitude": 35.55,
+      "longitude": 116.79,
+      "location_description": "隋鲁郡、唐兖州，今兖州区。",
+      "historical_importance": "山东腹地，泰山南麓。",
+      "related_events": [],
+      "confidence": "B",
+      "source": "《隋书》卷三〇《地理志中》"
+    },
+    {
+      "id": "qingzhou",
+      "historical_name": "青州",
+      "aliases": [
+        "北海郡",
+        "益都"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "山东省青州市",
+      "latitude": 36.7,
+      "longitude": 118.48,
+      "location_description": "隋北海郡、唐青州，今青州市。",
+      "historical_importance": "山东半岛枢纽，海路贸易。",
+      "related_events": [],
+      "confidence": "B",
+      "source": "《隋书》卷三〇《地理志中》"
+    },
+    {
+      "id": "dengzhou",
+      "historical_name": "登州",
+      "aliases": [
+        "东牟郡",
+        "蓬莱"
+      ],
+      "dynasty": "唐",
+      "modern_name": "山东省烟台市蓬莱区",
+      "latitude": 37.81,
+      "longitude": 120.76,
+      "location_description": "唐登州治蓬莱，今蓬莱区。",
+      "historical_importance": "对高丽、日本的海路门户。",
+      "related_events": [
+        "唐与渤海、日本往来"
+      ],
+      "confidence": "B",
+      "source": "《新唐书》卷三八《地理志二》"
+    },
+    {
+      "id": "xiangzhou",
+      "historical_name": "襄州",
+      "aliases": [
+        "襄阳郡",
+        "襄阳"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "湖北省襄阳市",
+      "latitude": 32.01,
+      "longitude": 112.122,
+      "location_description": "汉水中游，今襄阳市区。",
+      "historical_importance": "南北交通要冲，汉水漕运。",
+      "related_events": [],
+      "confidence": "B",
+      "source": "《隋书》卷三一《地理志下》"
+    },
+    {
+      "id": "jingzhou",
+      "historical_name": "荆州",
+      "aliases": [
+        "江陵",
+        "南郡"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "湖北省荆州市",
+      "latitude": 30.335,
+      "longitude": 112.19,
+      "location_description": "长江中游，今荆州市荆州区。",
+      "historical_importance": "长江中游军政中心。",
+      "related_events": [],
+      "confidence": "B",
+      "source": "《隋书》卷三一《地理志下》"
+    },
+    {
+      "id": "yizhou",
+      "historical_name": "益州",
+      "aliases": [
+        "成都",
+        "蜀郡",
+        "成都府"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "四川省成都市",
+      "latitude": 30.659,
+      "longitude": 104.063,
+      "location_description": "成都城，今成都市区。",
+      "historical_importance": "西南都会，'扬一益二'之益。",
+      "related_events": [
+        "安史之乱中玄宗入蜀"
+      ],
+      "confidence": "B",
+      "source": "《隋书》卷二九《地理志上》；《旧唐书》卷四一《地理志四》"
+    },
+    {
+      "id": "xingyuan",
+      "historical_name": "兴元",
+      "aliases": [
+        "汉中",
+        "梁州",
+        "南郑"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "陕西省汉中市",
+      "latitude": 33.067,
+      "longitude": 107.023,
+      "location_description": "汉中盆地，今汉中市区。",
+      "historical_importance": "蜀道北端，关中—巴蜀枢纽。",
+      "related_events": [
+        "安史之乱中玄宗经此入蜀（一说走金牛道）"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷三九《地理志二》"
+    },
+    {
+      "id": "guangzhou",
+      "historical_name": "广州",
+      "aliases": [
+        "南海郡",
+        "番禺"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "广东省广州市",
+      "latitude": 23.129,
+      "longitude": 113.264,
+      "location_description": "珠江口，今广州市区。",
+      "historical_importance": "海上丝路起点，市舶贸易。",
+      "related_events": [
+        "唐代设市舶使（714前后）"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷四一《地理志四》"
+    },
+    {
+      "id": "huazhou",
+      "historical_name": "华州",
+      "aliases": [
+        "华阴郡",
+        "华阴"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "陕西省渭南市华州区",
+      "latitude": 34.511,
+      "longitude": 109.757,
+      "location_description": "华山北麓，潼关以西。",
+      "historical_importance": "关中东部屏障，永丰仓所在。",
+      "related_events": [
+        "756年潼关失守后华州陷落"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷三八《地理志一》"
+    },
+    {
+      "id": "qizhou",
+      "historical_name": "岐州",
+      "aliases": [
+        "凤翔",
+        "扶风郡",
+        "凤翔府"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "陕西省宝鸡市凤翔区",
+      "latitude": 34.521,
+      "longitude": 107.39,
+      "location_description": "隋扶风郡、唐岐州/凤翔府，今凤翔区。",
+      "historical_importance": "长安西面屏障，唐末凤翔节度使。",
+      "related_events": [
+        "安史之乱中肃宗一度驻凤翔"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷三八《地理志一》"
+    },
+    {
+      "id": "yanmen",
+      "historical_name": "雁门",
+      "aliases": [
+        "雁门郡",
+        "代州"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "山西省忻州市代县",
+      "latitude": 39.05,
+      "longitude": 113.55,
+      "location_description": "雁门关在今代县北。",
+      "historical_importance": "太原北面门户，突厥入侵通道。",
+      "related_events": [
+        "615年炀帝雁门之围"
+      ],
+      "confidence": "B",
+      "source": "《隋书》卷四《炀帝纪下》"
+    },
+    {
+      "id": "jingxing",
+      "historical_name": "井陉关",
+      "aliases": [
+        "土门关",
+        "井陉"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "河北省石家庄市井陉县",
+      "latitude": 38.03,
+      "longitude": 114.03,
+      "location_description": "太行八陉之一，连接河北与河东。",
+      "historical_importance": "太行山军事要隘。",
+      "related_events": [
+        "756年常山之战前后争夺"
+      ],
+      "confidence": "B",
+      "source": "《新唐书》卷三九《地理志三》"
+    },
+    {
+      "id": "wuguan",
+      "historical_name": "武关",
+      "aliases": [
+        "武关"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "陕西省商洛市丹凤县",
+      "latitude": 33.63,
+      "longitude": 110.66,
+      "location_description": "秦岭东南通道，关中—南阳间。",
+      "historical_importance": "关中东南门户。",
+      "related_events": [],
+      "confidence": "B",
+      "source": "《新唐书》卷三八《地理志二》"
+    },
+    {
+      "id": "lingzhou",
+      "historical_name": "灵州",
+      "aliases": [
+        "灵武",
+        "朔方"
+      ],
+      "dynasty": "隋—唐",
+      "modern_name": "宁夏灵武市",
+      "latitude": 38.103,
+      "longitude": 106.34,
+      "location_description": "黄河东岸，今灵武市。",
+      "historical_importance": "朔方节度使驻地，756年肃宗即位处。",
+      "related_events": [
+        "756年肃宗即位于灵武"
+      ],
+      "confidence": "B",
+      "source": "《旧唐书》卷一〇《肃宗纪》"
+    }
+  ]
+}
